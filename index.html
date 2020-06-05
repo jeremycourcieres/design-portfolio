@@ -166,28 +166,46 @@
               </div>
             </div>
             <div class="changeView col-md-12 col-sm-12">
-              <a href="#m-expand-js" onclick="readMoreMadi()">
-                <div class="btn horizontal">
-                  <div class="round">
-                    <div class="text">
-                      <div id="txt">
-                        <span class="clickme">LEARN MORE</span>
+              <div class="buttonMadiMob col-md-12 col-sm-6">
+                <div class="space col-md-12 col-sm-12">
+
+                </div>
+                <div class="toggle">
+                  <input type="checkbox" id="modelViewMM" onclick="modelViewMadiMob()" class="check">
+                  <b class="b switch"></b>
+                  <b class="b track"></b>
+                </div>
+
+                <div class="changeViewText" id="2D3DTextMadiMobi">
+                  <p>Change to 3D view</p>
+                </div>
+              </div>
+              <div class="learnMadi col-md-12 col-sm-6">
+                <a href="#m-expand-js" onclick="readMoreMadi()">
+                  <div class="btn horizontal">
+                    <div class="round">
+                      <div class="text">
+                        <div id="txt">
+                          <span class="clickme">LEARN MORE</span>
+                        </div>
+                      </div>
+                      <div id="cta">
+                        <span class="arrow primera next"></span>
+                        <span class="arrow segunda next"></span>
                       </div>
                     </div>
-                    <div id="cta">
-                      <span class="arrow primera next"></span>
-                      <span class="arrow segunda next"></span>
-                    </div>
                   </div>
-                </div>
-              </a>
-              <div class="toggle">
-                <input type="checkbox" id="modelViewM" onclick="modelViewMadi()" class="check">
-                <b class="b switch"></b>
-                <b class="b track"></b>
+                </a>
               </div>
-              <div class="changeViewText" id="2D3DTextMadi">
-                <p>Change to 3D view</p>
+              <div class="buttonMadi">
+                <div class="toggle">
+                  <input type="checkbox" id="modelViewM" onclick="modelViewMadi()" class="check">
+                  <b class="b switch"></b>
+                  <b class="b track"></b>
+                </div>
+                <div class="changeViewText" id="2D3DTextMadi">
+                  <p>Change to 3D view</p>
+                </div>
               </div>
             </div>
             <div class="m-expand row" id="m-expand-js" style="padding:0;margin:0;">
@@ -387,7 +405,7 @@
                 </div>
                 <div class="viewer col-md-12 col-sm-12" id="t-view-js-3D">
                   <img src="imgs/img12-tilt2-under-3.png" alt="Tilt Sensor Render" class="under3ThreeD">
-                  <model-viewer src="models/TS2-2.glb"
+                  <model-viewer src="models/TS2.glb"
                     auto-rotate camera-controls
                     exposure="2"
                     shadow-intensity="2"
@@ -482,7 +500,7 @@
               </div>
               <div class="viewer col-md-12 col-sm-12" id="a-view-js-3D">
                 <img src="imgs/img15-auxi-under.png" alt="Auxilium Render" class="under4ThreeD">
-                <model-viewer src="models/Auxi.glb"
+                <model-viewer src="models/Auxi-no-decal.glb"
                   auto-rotate camera-controls
                   exposure="2"
                   shadow-intensity="2"
@@ -665,6 +683,25 @@
       }
     }
     </script>
+    <script type="text/javascript">
+    function modelViewMadiMob() {
+      var check = document.getElementById("modelViewMM");
+      var threeD = document.getElementById("m-view-js-3D");
+      var twoD = document.getElementById("m-view-js-2D");
+      var viewText = document.getElementById("2D3DTextMadiMobi");
+
+      if (check.checked) {
+          threeD.style.display = "block";
+          twoD.style.display = "none";
+          viewText.innerHTML = "Change to 2D view";
+      } else {
+          threeD.style.display = "none";
+          twoD.style.display = "block";
+          viewText.innerHTML = "Change to 3D view";
+      }
+    }
+    </script>
+
     <script type="text/javascript">
     function modelViewTilt() {
       var check = document.getElementById("modelViewT");
