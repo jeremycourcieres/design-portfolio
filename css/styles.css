@@ -1295,7 +1295,7 @@ hr{ background: white; }
 #p-auxi .changeView { padding: 3rem 3.4rem }
 #p-auxi .changeViewText {
   position: absolute;
-  bottom: 5%;
+  top: 73%;
   left: 5%;
 }
 
