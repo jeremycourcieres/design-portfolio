@@ -272,7 +272,7 @@ hr{ background: white; }
   height: 40px;
   border-radius: 100px;
   background-color: #ddd;
-  margin: -20px -40px; 
+  margin: -20px -40px;
   overflow: hidden;
   box-shadow: inset 0 0 2px 1px rgba(0,0,0,.05);
 }
@@ -1297,6 +1297,7 @@ hr{ background: white; }
   position: absolute;
   top: 73%;
   left: 5%;
+  width: 100%;
 }
 
 #p-auxi .changeViewText p {
@@ -1960,9 +1961,32 @@ hr{ background: white; }
     padding: 0 2rem;
     text-align: center;
   }
+  #p-tilt model-viewer {
+    width: 100%;
+    height: 50vh;
+    margin-top: 10%;
+    left: 0;
+    padding: auto;
+  }
+  #p-tilt .changeViewText {
+    right: 60%;
+    top: 20%;
+  }
+  #p-tilt .toggle {
+    top: 32%;
+    left: 52%;
+  }
 
   #p-auxi .auxi-left{ margin-top: 5.5rem; }
   #p-auxi .auxi-left-nav{ display: none;}
+  #p-auxi model-viewer {
+    width: 100%;
+    height: 30vh;
+    margin-top: 10%;
+    left: 0;
+    padding: auto;
+  }
+  #p-auxi .toggle { left: 80%; }
 
   #logos .logos-left{ margin-top: 5.5rem; }
   #logos .logos-genosis-img img{ width: 100%; }
