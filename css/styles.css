@@ -96,6 +96,172 @@ hr{ background: white; }
 
 #intro .intro-img img{ display: none; }
 
+#resume{
+  color: white;
+  background: #020826;
+}
+
+#resume .container{
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* #resume .resume-nav{ padding-bottom: 3.125rem; } */
+
+#resume .nav-style{ color: white; }
+
+#resume .nav-style:hover{
+  color: grey;
+  text-decoration: none;
+}
+
+#resume .resume-nav-img img{
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+}
+
+#resume .resume-nav-img2 img{
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+}
+
+#resume h1{
+  font-size: 10em;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+#resume .resume-nav-title{ margin-bottom: 0; }
+
+#resume .resume-nav-title li{
+  list-style: none;
+  font-size: 1.25em;
+  margin-left: 9.375rem;
+}
+
+#resume .resume-nav-list li{
+  list-style: none;
+  display: inline;
+  font-size: 0.625em;
+  font-weight: 200;
+  padding: 0 0.625rem;
+}
+
+#resume .resume-nav-list{ margin-left: 5.625rem; }
+#resume #nav1{ padding-left: 3.75rem;}
+#resume #nav2{ padding-right: 0; }
+
+#resume .resume-exp{ padding: 2rem 3.4rem; }
+#resume .resume-edu{
+  padding: 2rem 3.4rem;
+  text-align: right;
+}
+#resume .resume-edu h2{
+  text-align: right;
+  padding-top: 3rem;
+}
+#resume .resume-edu h3{ text-align: right; }
+/* #resume .resume-left-nav{
+  padding-top: 2rem;
+  height: 355px;
+} */
+
+#resume h2{
+  font-size: 2.9em;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+#resume #resume-date {
+  padding-bottom: 1.5rem;
+}
+
+#resume .nav-style{ color: white; }
+#resume .nav-style:hover{
+  color: #FF0000;
+  text-decoration: none;
+}
+
+#resume h3{
+  font-size: 1.9em;
+  font-weight: 400;
+}
+
+#resume .list-wrapper {
+  position: relative;
+  width: 80%;
+}
+#resume .list-item-wrapper {
+  margin-top: 35px;
+  position: relative;
+}
+#resume .list-bullet {
+  float: left;
+  margin-right: 20px;
+  margin-top: 12px;
+  margin-left: 1px;
+  background: white;
+  height: 12px;
+  width: 12px;
+  line-height: 40px;
+  border-radius: 100px;
+  font-weight: 700;
+  text-align: center;
+}
+#resume .list-bullet-right {
+  float: right;
+  margin-left: 20px;
+  margin-top: 12px;
+  margin-right: 1px;
+  background: white;
+  height: 12px;
+  width: 12px;
+  line-height: 40px;
+  border-radius: 100px;
+  font-weight: 700;
+  text-align: center;
+}
+#resume .list-item {
+  display: table-row;
+  vertical-align: middle;
+}
+#resume .list-title {
+  line-height: 40px;
+  font-size: 1.6em;
+  font-weight: 200;
+}
+#resume .list-text {
+  line-height: 40px;
+  font-size: 1.6em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#resume .red-line {
+  background: white;
+  /* z-index:-1; */
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  left: 5px;
+}
+#resume .red-line-right {
+  background: white;
+  /* z-index:-1; */
+  width: 4px;
+  height: 100%;
+  position: absolute;
+  right: 5px;
+}
+
+#resume #nav2{ padding-bottom: 4.25rem;}
+
 #projects{
   color: white;
   background: #252626;
@@ -186,10 +352,7 @@ hr{ background: white; }
 
 #p-madison .madison-left{ padding: 2rem 3.4rem; }
 
-#p-madison .madison-left-nav{
-  padding-top: 2rem;
-  height: 355px;
-}
+#p-madison .madison-left-nav{ padding-top: 2rem; }
 
 #p-madison .madison-right img{
   max-width: 670px;
@@ -345,7 +508,7 @@ hr{ background: white; }
   writing-mode: vertical-rl;
   float: right;
   transform: rotate(180deg);
-  padding-bottom: 7.6rem;
+  padding-bottom: 10.1rem;
 }
 
 #p-madison .projects-nav-list li{
@@ -999,7 +1162,7 @@ hr{ background: white; }
   writing-mode: vertical-rl;
   float: right;
   transform: rotate(180deg);
-  padding-bottom: 7.6rem;
+  padding-bottom: 10.1rem;
 }
 
 #p-tilt .projects-nav-list li{
@@ -1252,7 +1415,7 @@ hr{ background: white; }
   writing-mode: vertical-rl;
   float: right;
   transform: rotate(180deg);
-  padding-bottom: 7.6rem;
+  padding-bottom: 10.1rem;
 }
 
 #p-auxi .projects-nav-list li{
@@ -1370,6 +1533,165 @@ hr{ background: white; }
 #a-view-js-2D { display: block; }
 #a-view-js-3D { display: none; }
 
+#p-cgi{
+  color: white;
+  background: black;
+}
+
+#p-cgi .container{
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+#p-cgi .cgi-img0 img{ width: 100%; }
+
+#p-cgi h1{
+  font-size: 2.9em;
+  font-weight: 900;
+}
+
+#p-cgi p{
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+#p-cgi .cgi-left{ padding: 2rem 3.4rem; }
+#p-cgi .cgi-left-nav{ padding-top: 2rem; }
+#p-cgi .nav-style{ color: white; }
+#p-cgi .nav-style:hover{
+  color: #FF7400;
+  text-decoration: none;
+}
+
+#p-cgi .projects-nav-title{
+  margin-bottom: 0;
+  padding-right: 3.4rem;
+}
+
+#p-cgi .projects-nav-title li{
+  list-style: none;
+  font-size: 1.25em;
+  font-weight: 200;
+  writing-mode: vertical-rl;
+  float: right;
+  transform: rotate(180deg);
+  padding-bottom: 10.1rem;
+}
+
+#p-cgi .projects-nav-list li{
+  list-style: none;
+  display: inline;
+  font-size: 0.625em;
+  font-weight: 200;
+  padding: 0.625rem 0;
+}
+
+#p-cgi .projects-nav-list{
+  writing-mode: vertical-rl;
+  float: right;
+  transform: rotate(180deg);
+  margin-right: 3.125rem;
+}
+
+#p-cgi #nav2{ padding-bottom: 4.25rem;}
+
+#p-cgi .cgi-img img{
+  width: 100%;
+  padding: 3rem;
+}
+
+#p-cgi hr{
+  border: 2px solid #FF7400;
+  margin: 0 3rem;
+}
+
+#p-cgi .cgi-img2 img{
+  width: 100%;
+  padding: 5rem 3rem;
+}
+
+#p-cgi .decal-right h3{
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 7rem;
+}
+
+#p-cgi .decal-right-mob h3{
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 7rem;
+}
+
+#p-cgi p{ padding-top: 2rem; }
+
+#p-cgi .decal-right p{ padding-bottom: 50rem; }
+
+#p-cgi .decal-left img{
+  max-width: 670px;
+  width: 100%;
+}
+
+#p-cgi .decal-left{
+  position: relative;
+  padding-top: 7rem;
+  /* padding-bottom: 3rem; */
+  margin: auto;
+  min-height: 700px;
+}
+
+#p-cgi .decal-right, .decal-right-mob{ padding: 2rem 3.4rem; }
+#p-cgi .decal-right-mob{ display: none; }
+
+#p-cgi .decalLayer { display: none; }
+
+#p-cgi .layerOne{
+  position: relative;
+  float: left;
+}
+
+#p-cgi .layerTwo{
+  position: absolute;
+  padding-top: 7rem;
+  left: 0px;
+  top: 0px;
+  float: left;
+}
+
+#p-cgi .layerThree{
+  position: absolute;
+  padding-top: 7rem;
+  left: 0px;
+  top: 0px;
+  float: left;
+}
+
+#p-cgi .layerFour{
+  position: absolute;
+  padding-top: 7rem;
+  left: 0px;
+  top: 0px;
+  float: left;
+}
+
+#p-cgi .layerBtn{
+  position: absolute;
+  top: 120px;
+  left: 315px;
+  user-select: none;
+  width: 20px;
+  height: 22px;
+}
+
+#p-cgi .layerBtn2{
+  position: absolute;
+  top: 120px;
+  left: 140px;
+  user-select: none;
+  width: 20px;
+  height: 22px;
+}
+
 #logos{
   color: white;
   background: #ABABAB;
@@ -1397,11 +1719,8 @@ hr{ background: white; }
 }
 
 #logos .logos-left{ padding: 2rem 3.2rem; }
-
 #logos .logos-left-cont{ padding: 0 3.2rem 3rem; }
-
 #logos .logos-left-nav{ padding-top: 2rem; }
-
 #logos .logos-genosis-img img{
   width: 300px;
   padding: 0.9375rem 0;
@@ -1435,7 +1754,7 @@ hr{ background: white; }
   writing-mode: vertical-rl;
   float: right;
   transform: rotate(180deg);
-  padding-bottom: 7.6rem;
+  padding-bottom: 10.1rem;
 }
 
 #logos .projects-nav-list li{
@@ -1604,10 +1923,30 @@ hr{ background: white; }
 }
 
 @media screen and (max-width: 321px) {
+  #resume .list-wrapper { width: 100%; }
+  #resume .list-text { font-size: 1.2em; }
+  #resume h2{ font-size: 2.4em; }
+  #resume h3{ font-size: 1.7em; }
+
   #p-madison .m-expand{ max-height: 2160px; }
+
+  #p-cgi .layerBtn{
+    top: 0px;
+    left: 0px;
+    margin: 1vh 42vw;
+
+  }
+  #p-cgi .layerBtn2{
+    top: 0px;
+    left: 0px;
+    margin: 6vh 20vw;
+  }
 }
 
 @media screen and (max-width: 376px) {
+  #resume .list-wrapper { width: 100%; }
+  #resume .list-text { font-size: 1.2em; }
+
   #p-madison .m-expand{ max-height: 2650px; }
   #p-madison .trafficlight{
     height: 200px;
@@ -1693,6 +2032,9 @@ hr{ background: white; }
 }
 
 @media screen and (max-width: 451px) and (min-width: 376px){
+  #resume .list-wrapper { width: 100%; }
+  #resume .list-text { font-size: 1.4em; }
+
   #p-madison .m-expand{ max-height: 3100px; }
   #p-madison .trafficlight{
     height: 200px;
@@ -1831,6 +2173,30 @@ hr{ background: white; }
     width: 100%;
     position: relative;
 	  margin-left: auto; margin-right: auto;
+  }
+
+  #resume .list-wrapper { width: 100%; }
+  #resume h1{ font-size: 4rem; }
+
+  #resume .resume-nav {
+    text-align: center;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+    padding: 0;
+  }
+  #resume .resume-nav-title{
+    padding: 0;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+    width: fit-content;
+  }
+  #resume .resume-nav-title li{  margin: 0; }
+  #resume #nav1{ padding-left: 0.625rem; }
+  #resume .resume-nav-list{
+    padding: 0;
+    margin-left: 0;
+    display: inline-block;
+    width: fit-content;
   }
 
   #projects .projects-nav {
@@ -1977,6 +2343,38 @@ hr{ background: white; }
     left: 52%;
   }
 
+  #p-cgi .cgi-left{ margin-top: 5.5rem; }
+  #p-cgi .cgi-left-nav{ display: none; }
+  #p-cgi .decal-right-mob{ display: block; }
+  #p-cgi .decal-right{ display: none; }
+  #p-cgi .layerFour{
+    padding-top: 3rem;
+    padding-right: 5rem;
+  }
+  #p-cgi .layerThree{
+    padding-top: 3rem;
+    padding-right: 5rem;
+  }
+  #p-cgi .layerTwo{
+    padding-top: 3rem;
+    padding-right: 5rem;
+  }
+  #p-cgi .decal-left{
+    padding-top: 3rem;
+    padding-right: 5rem;
+  }
+  #p-cgi .layerBtn{
+    top: 0px;
+    left: 0px;
+    margin: 6vh 42vw;
+
+  }
+  #p-cgi .layerBtn2{
+    top: 0px;
+    left: 0px;
+    margin: 6vh 20vw;
+  }
+
   #p-auxi .auxi-left{ margin-top: 5.5rem; }
   #p-auxi .auxi-left-nav{ display: none;}
   #p-auxi model-viewer {
@@ -2012,7 +2410,7 @@ hr{ background: white; }
   #extras .extras-img{ margin: 1rem 3rem; }
   #extras .extras-img2 img{ width: 100%; }
   #extras .extras-img2{ margin: 1rem 3rem; }
-  #extras .extras-left-nav{ display: none;}
+  #extras .extras-left-nav{ display: none; }
 }
 
 @media screen and (max-width: 767px) and (min-width: 601px){
@@ -2069,6 +2467,8 @@ hr{ background: white; }
     position: relative;
 	  margin-left: auto; margin-right: auto;
   }
+
+  #resume .list-wrapper { width: 100%; }
 
   #projects h1{ font-size: 7rem; }
   #projects .projects-nav{
@@ -2204,6 +2604,16 @@ hr{ background: white; }
 
   #p-tilt .t-expand{ max-height: 3300px; }
 
+  #p-cgi .layerBtn{
+    top: 0px;
+    left: 0px;
+    margin: 11vh 31vw;
+  }
+  #p-cgi .layerBtn2{
+    top: 0px;
+    left: 0px;
+    margin: 11vh 14vw;
+  }
   #logos .logos-genosis-img2 img{
     float: none;
     width: 100%;
@@ -2240,6 +2650,9 @@ hr{ background: white; }
   #p-tilt .tilt-expand-batch-text p{ width: 360px; }
   #p-tilt .tilt-expand-mount-text p{ width: 240px; }
   #p-tilt .tilt-expand-mount-text2 p{ width: 240px; }
+  #p-cgi .cgi-left p{ width: 240px; }
+  #p-cgi .decal-right p{ width: 240px; }
+  #p-cgi .decal-right-mob p{ width: 240px; }
   #p-auxi .auxi-left p{ width: 300px; }
   #logos .logos-left p{ width: 300px; }
 
