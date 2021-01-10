@@ -15,9 +15,32 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+    <!-- <script type="text/javascript">
+      // Wait for window load
+      $(window).on('load', function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+      });
+    </script> -->
+
+    <script>
+      $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");; });
+    </script>
+
+
   </head>
 
   <body>
+
+    <!-- Page loader -->
+    <div class="se-pre-con"></div>
 
     <!-- Nav for small screens -->
     <nav>
@@ -90,7 +113,7 @@
         </div>
       </section>
 
-      <section id="resume">
+      <!-- <section id="resume">
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12">
@@ -108,7 +131,6 @@
                   <li><a class="nav-style"href="#cgi-nav">CGI</a></li>
                   <li><a class="nav-style"href="#auxi-nav">XLM</a></li>
                   <li><a class="nav-style"href="#logos">LOGO DESIGN</a></li>
-                  <!-- <li id="nav2"><a class="nav-style"href="#extras-nav2">EXTRAS</a></li> -->
                 </ul>
               </div>
               <div class="resume-nav-img2">
@@ -230,14 +252,14 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section id="projects">
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-12">
               <div class="projects-nav-img">
-                <img src="imgs/img5-connect7.png" alt="Connecter">
+                <img src="imgs/img5-connect6.png" alt="Connecter">
               </div>
               <div id="nav-projects" class="projects-nav openSans">
                 <h1>PROJECTS</h1>
@@ -357,6 +379,40 @@
               <div class="col-md-12 col-sm-12">
                 <p style="opacity:0;"></p>
               </div>
+              <div class="features col-md-12 col-sm-12">
+                <h3>Features</h3>
+              </div>
+              <div class="hrc col-md-4 col-sm-12" >
+                <img src="imgs/img55-madi-feat-hrc.png" alt="HRC - IP65">
+                <p id="title">HRC</p>
+                <p id="info">Protected from total dust ingress. Protected from low pressure water jets from all directions.</p>
+              </div>
+              <div class="lcd col-md-4 col-sm-12">
+                <img src="imgs/img56-madi-feat-lcd.png" alt="LCD HDMI Display">
+                <p id="title">7 inch LCD HDMI DISPLAY</p>
+                <p id="info">This is the Little Bird 7" LCD HDMI Touch Screen for Raspberry Pi 3! Features: It has 800 x 480 HD resolution</p>
+              </div>
+              <div class="battery col-md-4 col-sm-12">
+                <img src="imgs/img57-madi-feat-battery.png" alt="Lithium Ion Prismatic Battery">
+                <p id="title">Lithium Ion Prismatic Battery packs</p>
+                <p id="info">3.7V 2.35Ah High Capacity Lilon Battery with CE022 JST PHR - 3 Connector</p>
+              </div>
+              <div class="antenna col-md-4 col-sm-12">
+                <img src="imgs/img58-madi-feat-antenna.png" alt="Whip WiFi Antenna">
+                <p id="title">ANT-B20-PW-QW-UFL Linx - Whip WiFi Antenna, PCB Mount, (0.826 GHz)</p>
+                <p id="info"></p>
+              </div>
+              <div class="uhandle col-md-4 col-sm-12">
+                <img src="imgs/img59-madi-feat-uhandle.png" alt="Polyamide based (PA) technopolymer">
+                <p id="title">Polyamide based (PA) technopolymer.<br>(UNI ISO 7049)</p>
+                <p id="info">Maximum tightening torque of the self-tapping screws 1,2 [Nm].</p>
+              </div>
+              <div class="connector col-md-4 col-sm-12">
+                <img src="imgs/img60-madi-feat-connector.png" alt="M12 12 Pin Female Connector">
+                <p id="title">M12 12 Pin Female Connector Front Mount With Single Wire Harness 50CM AWG26 A Code Shiled</p>
+                <p id="info"></p>
+              </div>
+              <div class="break col-md-12 col-sm-12"></div>
               <div class="col-md-12 col-sm-12">
                 <div class="madi-expand-right-mobile">
                   <h1>CREATION OF THE USER INTERFACE DECAL</h1>
@@ -430,6 +486,95 @@
                   <img src="imgs/img40-madi-sugprop4.png" alt="Suggested Proposal">
                   <h3>Suggested Proposal</h3>
                 </div>
+              </div>
+              <div class="protect col-md-6 col-sm-12">
+                <h1>REACHING IP <br>OVER THE SCREEN PROTECTION</h1>
+              </div>
+              <div class="col-md-6 col-sm-12"></div>
+              <div class="protect2 col-md-12 col-sm-12">
+                <img src="imgs/img61-madi-protect1.png" alt="Product Screen">
+              </div>
+              <div class="protect3 col-md-12 col-sm-12">
+                <p>Product gives maximun screen visibility.<br>
+                  The visible (glass) surface of the LCD is exposed <br>
+                  to the outside world.<br>
+                  A perimeter seal (from 3M VHB tape) permanently <br>
+                  bonds the LCD to the enclosure, and seals internal <br>
+                  components from the outside environment.<br>
+                  Foam contacts the bottom of the LCD and the <br> PCB board.</p>
+              </div>
+              <div class="protect2 col-md-12 col-sm-12">
+                <img src="imgs/img62-madi-protect2.png" alt="Product Screen">
+              </div>
+              <div class="col-md-6 col-sm-12"></div>
+              <div class="sma-ufl col-md-6 col-sm-12">
+                <h1>SMA TO UFL<br> ANTENNA</h1>
+              </div>
+              <div class="sma-ufl2 col-md-6 col-sm-12">
+                <img src="imgs/img63-madi-antenna1.png" alt="SMA to UFL Antenna">
+              </div>
+              <div class="sma-ufl-text col-md-6 col-sm-12">
+                <p>During the field test an issue <br>
+                  occured where the user played around <br>
+                  with the antenna rod a spun it around.<br><br>
+                  This resulted in the cable severing internally. <br>
+                  This is how the challenge was tackled.</p>
+              </div>
+              <div class="ant1 col-md-4 col-sm-12">
+                <img src="imgs/img64-madi-antenna2.png" alt="SMA to UFL Antenna" width="300px">
+                <p>Parallel faces highlighted in red (88°).
+                  This allows maximum compression
+                  between the plate and the case.</p>
+              </div>
+              <div class="ant2 col-md-4 col-sm-12">
+                <img src="imgs/img65-madi-antenna3.png" alt="SMA to UFL Antenna" width="300px">
+                <p>The plate is restricted from all movement.
+                  This will stop the cable antenna from
+                  spinning itself and allow it to stay in place. </p>
+              </div>
+              <div class="ant3 col-md-4 col-sm-12">
+                <img src="imgs/img66-madi-antenna4.png" alt="SMA to UFL Antenna" width="300px">
+                <p>The SMA and the antenna plate are fused
+                  together using a bonding loctite retaining
+                  compound. To retain the IP the antenna
+                  plate has a O-ring seal.</p>
+              </div>
+              <div class="wireframe col-md-6 col-sm-12">
+                <h1>WIREFRAME <br> ARCHITECTURE</h1>
+              </div>
+              <div class="col-md-6 col-sm-12"></div>
+              <div class="col-md-12 col-sm-12">
+                <div class="wireframe-img">
+                  <img src="imgs/img67-madi-wireframe2.png" alt="Wireframe Architecture Diagram">
+                </div>
+                <div class="wireframe-text">
+                  <p>WIRE FRAME ARCHITECTURE <br> PROCESS OF THE DISPLAY</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12"></div>
+              <div class="batt-sol col-md-6 col-sm-12">
+                <h1>BATTERY CASE <br> SOLUTION</h1>
+              </div>
+              <div class="batt-sol-img col-md-7 col-sm-12">
+                <img src="imgs/img68-madi-battery1.png" alt="Battery Case Solution" width="600px">
+              </div>
+              <div class="batt-sol-text col-md-5 col-sm-12">
+                <p>It was proven to be a <br>
+                  challenge to properly secure <br>
+                  the battery inside the remote.<br><br>
+                  This is a showcase of the battery case.</p>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="batt-sol2">
+                  <img src="imgs/img69-madi-battery2.png" alt="Battery Case Solution" width="200px">
+                </div>
+                <div class="batt-sol2-text">
+                  <p>Note: Wireframe <br>
+                    drawing not to scale</p>
+                </div>
+              </div>
+              <div class="batt-sol3 col-md-6 col-sm-12">
+                <img src="imgs/img70-madi-battery3.png" alt="Battery Case Solution" width="220px">
               </div>
             </div>
           </div>
@@ -913,7 +1058,7 @@
     <script type="text/javascript">
     function readMoreMadi() {
       var expandInfo = document.getElementById("m-expand-js");
-      expandInfo.style.height = "2800px";
+      expandInfo.style.height = "7800px";
     }
     </script>
     <script type="text/javascript">
