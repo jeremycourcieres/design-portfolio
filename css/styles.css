@@ -14,6 +14,21 @@ html, body{
   line-height: normal;
 }
 
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript,
+if it's not present, don't show loader */
+/* .no-js #loader { display: none;  } */
+/* .js #loader { display: block; position: absolute; left: 100px; top: 0; } */
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../preloader/Preloader_7.gif') center no-repeat #fff;
+}
+
 .openSans{
   font-family: 'Open Sans', sans-serif;
 }
@@ -554,6 +569,70 @@ hr{ background: white; }
   overflow: hidden;
 }
 
+#p-madison .features h3{ margin-left: 3.5rem; }
+
+#p-madison .hrc img{ padding: 3rem 5rem 1rem; }
+#p-madison .hrc #title{
+  margin-left: 3rem;
+  text-align: center;
+}
+#p-madison .hrc #info{
+  margin-left: 3rem;
+  padding: 0 1.8rem;
+  text-align: center;
+}
+
+#p-madison .lcd img{ padding: 3rem 3.5rem 1rem; }
+#p-madison .lcd #title{ text-align: center; }
+#p-madison .lcd #info{
+  padding: 0 4rem;
+  text-align: center;
+}
+
+#p-madison .battery img{ padding: 3rem 2.5rem 1rem; }
+#p-madison .battery #title{
+  margin-right: 2rem;
+  padding: 0 2rem;
+  text-align: center;
+}
+#p-madison .battery #info{
+  margin-right: 2rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+#p-madison .antenna img{ padding: 3rem 5rem 1rem; }
+#p-madison .antenna #title{
+  margin-left: 3rem;
+  text-align: center;
+}
+#p-madison .antenna #info{
+  margin-left: 3rem;
+  padding: 0 4rem;
+  text-align: center;
+}
+
+#p-madison .uhandle img{ padding: 3rem 3.5rem 1rem; }
+#p-madison .uhandle #title{ text-align: center; }
+#p-madison .uhandle #info{
+  padding: 0 4rem;
+  text-align: center;
+}
+
+#p-madison .connector img{ padding: 3rem 2.5rem 1rem; }
+#p-madison .connector #title{
+  margin-right: 2rem;
+  padding: 0 2rem;
+  text-align: center;
+}
+#p-madison .connector #info{
+  margin-right: 2rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+#p-madison .break { margin: 5rem; }
+
 #p-madison .btn{
   display: flex;
   align-items: baseline;
@@ -983,6 +1062,95 @@ hr{ background: white; }
   text-align: center;
   padding-bottom: 2rem;
 }
+
+#p-madison .protect h1{
+  font-size: 2.5em;
+  line-height: 0.9;
+  font-weight: 600;
+  padding: 3rem 3rem 0 5rem;
+}
+#p-madison .protect2 img{ width: 80%; }
+#p-madison .protect3 p{
+  text-align: right;
+  width: 80%;
+}
+
+#p-madison .sma-ufl h1{
+  padding: 3rem 5rem 0 3rem;
+  font-size: 2.5em;
+  line-height: 0.9;
+  font-weight: 600;
+  text-align: right;
+}
+#p-madison .sma-ufl2 img{
+  width: 80%;
+  margin-left: 5rem;
+}
+#p-madison .sma-ufl-text p{
+  text-align: right;
+  padding: 3rem 5rem 0 0;
+}
+
+#p-madison .ant1 img{ padding: 2rem 0 0 5rem; }
+#p-madison .ant1 p{
+  text-align: center;
+  margin: 2rem 0 0 4rem;
+  padding: 0 1.5rem;
+}
+
+#p-madison .ant2 img{ padding: 4rem 2rem 0 2rem; }
+#p-madison .ant2 p{
+  text-align: center;
+  margin: 2rem 2.5rem 0 1.5rem;
+}
+
+#p-madison .ant3 img{ padding-right: 4rem; }
+#p-madison .ant3 p{
+  text-align: center;
+  margin: 2rem 5rem 0 0;
+  padding: 0 1rem;
+}
+
+#p-madison .wireframe h1{
+  padding: 10rem 3rem 0 5rem;
+  font-size: 2.5em;
+  line-height: 0.9;
+  font-weight: 600;
+}
+
+#p-madison .wireframe-img img{
+  width: 100%;
+  padding: 3rem;
+}
+#p-madison .wireframe-text p{
+  position: absolute;
+  top: 7rem;
+  right: 4rem;
+  text-align: right;
+}
+
+#p-madison .batt-sol h1{
+  padding: 10rem 5rem 0 3rem;
+  font-size: 2.5em;
+  line-height: 0.9;
+  font-weight: 600;
+  text-align: right;
+}
+#p-madison .batt-sol-img img{ padding: 3rem; }
+#p-madison .batt-sol-text p{
+  margin: 2rem 5rem 0 0;
+  padding: 7rem 0 0 3.5rem;
+  text-align: right;
+}
+
+#p-madison .batt-sol2 img{ margin: 0 2rem 0 14rem; }
+#p-madison .batt-sol2-text p{
+  position: absolute;
+  top: 1rem;
+  left: 4rem;
+}
+#p-madison .batt-sol3 img{ margin: 0 3rem; }
+
 
 #p-tilt{ background: #ECB90F; }
 
