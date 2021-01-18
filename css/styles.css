@@ -606,11 +606,6 @@ hr{ background: white; }
   margin-left: 3rem;
   text-align: center;
 }
-#p-madison .antenna #info{
-  margin-left: 3rem;
-  padding: 0 4rem;
-  text-align: center;
-}
 
 #p-madison .uhandle img{ padding: 3rem 3.5rem 1rem; }
 #p-madison .uhandle #title{ text-align: center; }
@@ -1091,20 +1086,28 @@ hr{ background: white; }
   padding: 3rem 5rem 0 0;
 }
 
-#p-madison .ant1 img{ padding: 2rem 0 0 5rem; }
+#p-madison .ant1 img{
+  /* width: 300px; */
+  padding: 2rem 0 0 5rem;
+}
 #p-madison .ant1 p{
   text-align: center;
   margin: 2rem 0 0 4rem;
   padding: 0 1.5rem;
 }
 
-#p-madison .ant2 img{ padding: 4rem 2rem 0 2rem; }
+#p-madison .ant2 img{
+  /* width: 300px; */
+  padding: 4rem 2rem 0 2rem;
+}
 #p-madison .ant2 p{
   text-align: center;
   margin: 2rem 2.5rem 0 1.5rem;
 }
-
-#p-madison .ant3 img{ padding-right: 4rem; }
+#p-madison .ant3 img{
+  /* width: 300px; */
+  padding-right: 4rem;
+}
 #p-madison .ant3 p{
   text-align: center;
   margin: 2rem 5rem 0 0;
@@ -1128,6 +1131,7 @@ hr{ background: white; }
   right: 4rem;
   text-align: right;
 }
+#p-madison .wireframe-text-mob p{ display: none; }
 
 #p-madison .batt-sol h1{
   padding: 10rem 5rem 0 3rem;
@@ -1136,12 +1140,17 @@ hr{ background: white; }
   font-weight: 600;
   text-align: right;
 }
-#p-madison .batt-sol-img img{ padding: 3rem; }
+#p-madison .batt-sol-img img{
+  max-width: 600px;
+  width: 100%;
+  padding: 3rem;
+}
 #p-madison .batt-sol-text p{
   margin: 2rem 5rem 0 0;
   padding: 7rem 0 0 3.5rem;
   text-align: right;
 }
+#p-madison .batt-sol2-text-mob p{ display: none}
 
 #p-madison .batt-sol2 img{ margin: 0 2rem 0 14rem; }
 #p-madison .batt-sol2-text p{
@@ -2439,12 +2448,100 @@ hr{ background: white; }
     margin-right: auto;
     left: 0;
   }
-  #p-madison .m-expand{ max-height: 3400px; }
+  #p-madison .m-expand{ max-height: 11450px; }
+  #p-madison .features h3{
+    margin: 0;
+    text-align: center;
+  }
+  #p-madison .hrc img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+  }
+  #p-madison .hrc #title{ margin: 0; }
+  #p-madison .hrc #info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  #p-madison .lcd img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    padding: 0 5rem 0;
+  }
+  #p-madison .lcd #title{ padding-top: 1rem; }
+  #p-madison .lcd #info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 0 3.5rem 1.5rem;
+  }
+  #p-madison .battery img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    padding: 0 5rem 0;
+  }
+  #p-madison .battery #title{
+    margin: 0;
+    padding-top: 1rem;
+  }
+  #p-madison .battery #info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  #p-madison .antenna img{
+    padding-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+  }
+  #p-madison .antenna #title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding-bottom: 1.5rem;
+  }
+  #p-madison .uhandle img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    padding: 0 5rem 0;
+  }
+  #p-madison .uhandle #title{
+    margin: 0;
+    padding-top: 1rem;
+  }
+  #p-madison .uhandle #info{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 1rem 3.5rem 2rem;
+  }
+  #p-madison .connector img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    padding: 0 5rem 0;
+  }
+  #p-madison .connector #title{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-top: 1rem;
+  }
   #p-madison .madi-expand-right{ display: none; }
   #p-madison .madi-expand-right-mobile{
     display: block;
     padding: 2rem;
-    margin-top: 5.5rem;
+    margin-top: 2rem;
   }
   #p-madison .madi-expand-right-mobile h1{
     font-size: 2.4em;
@@ -2471,6 +2568,68 @@ hr{ background: white; }
   #p-madison .madi-expand-proposal-title h3{
     text-align: center;
     padding: 0;
+  }
+  #p-madison .protect2 img{ margin: 2rem 0 2rem; }
+  #p-madison .sma-ufl2 img{ margin-top: 2rem; }
+  #p-madison .ant1 img{
+    margin: 1rem 2rem;
+    max-width: 300px;
+    width: 100%;
+  }
+  #p-madison .ant1 p{
+    margin: 0 auto;
+    padding-top: 1rem;
+    width: 300px;
+  }
+  #p-madison .ant2 img{
+    margin: 1rem 4.5rem;
+    max-width: 300px;
+    width: 100%;
+  }
+  #p-madison .ant2 p{
+    margin: 0 auto;
+    padding-top: 1rem;
+    width: 300px;
+  }
+  #p-madison .ant3 img{
+    margin: 1rem 6rem;
+    max-width: 300px;
+    width: 100%;
+  }
+  #p-madison .ant3 p{
+    margin: 0 auto;
+    padding-top: 1rem;
+    width: 300px;
+  }
+  #p-madison .wireframe h1{ padding: 7rem 3rem 0 5rem; }
+  #p-madison .wireframe-img img{ padding-top: 1rem; }
+  #p-madison .wireframe-text-mob p{
+    display: block;
+    text-align: center;
+  }
+  #p-madison .wireframe-text p { display: none; }
+  #p-madison .batt-sol-img img{
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+  #p-madison .batt-sol2-text-mob p{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+  }
+  #p-madison .batt-sol2-text p{ display: none}
+  #p-madison .batt-sol2 img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 6rem 2rem 6rem;
+    width: 99%;
+  }
+  #p-madison .batt-sol3 img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 6rem 2rem 6rem;
+    width: 99%;
   }
 
   #p-tilt .tilt-left{ margin-top: 5.5rem; }
