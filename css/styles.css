@@ -2448,7 +2448,7 @@ hr{ background: white; }
     margin-right: auto;
     left: 0;
   }
-  #p-madison .m-expand{ max-height: 11450px; }
+  #p-madison .m-expand{ max-height: 11500px; }
   #p-madison .features h3{
     margin: 0;
     text-align: center;
@@ -2601,13 +2601,20 @@ hr{ background: white; }
     padding-top: 1rem;
     width: 300px;
   }
-  #p-madison .wireframe h1{ padding: 7rem 3rem 0 5rem; }
+  #p-madison .wireframe h1{
+    padding: 7rem 3rem 0 3rem;
+    text-align: center;
+  }
   #p-madison .wireframe-img img{ padding-top: 1rem; }
   #p-madison .wireframe-text-mob p{
     display: block;
     text-align: center;
   }
   #p-madison .wireframe-text p { display: none; }
+  #p-madison .batt-sol h1{
+    text-align: center;
+    padding: 10rem 3rem 0 3rem;
+  }
   #p-madison .batt-sol-img img{
     padding-top: 1rem;
     padding-bottom: 0;
@@ -2926,7 +2933,7 @@ hr{ background: white; }
     left: 67%;
   }
 
-  #p-madison .m-expand{ max-height: 2100px; }
+  #p-madison .m-expand{ max-height: 1000px; }
   #p-madison .trafficlight:after{ left: 8.6625rem; }
   #p-madison .trafficlight2:after{ right: 2.6625rem; }
   #p-madison .red2{ right: 0.7875rem; }
