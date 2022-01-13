@@ -2916,6 +2916,15 @@ hr{ background: white; }
   }
   #p-auxi .toggle { left: 80%; }
 
+  #p-bplm .bplm-left{ margin-top: 5.5rem; }
+  #p-bplm .bplm-left-nav{ display: none; }
+  #p-bplm .changeViewText { left: 7%; }
+  #p-bplm model-viewer {
+    margin-bottom: 10%;
+    height: 30vh;
+    padding: auto;
+  }
+
   #logos .logos-left{ margin-top: 5.5rem; }
   #logos .logos-genosis-img img{ width: 100%; }
   #logos .logos-genosis-img2 img{
