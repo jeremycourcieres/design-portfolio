@@ -345,6 +345,38 @@ hr{ background: white; }
   margin: auto;
 }
 
+#p-kurloo{
+  color: white;
+  background: #05052B;
+}
+
+#p-kurloo .container{
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* padding-bottom: 11rem; */
+}
+
+#p-kurloo h1{
+  font-size: 2.9em;
+  font-weight: 900;
+}
+
+#p-kurloo p{
+  color: #959595;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+#p-kurloo .kurloo-left{ padding: 2rem 3.4rem; }
+
+#p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
+
+#p-kurloo .kurloo-right img{
+  max-width: 670px;
+  width: 100%;
+}
+
 #p-madison{
   color: white;
   background: #252626;
