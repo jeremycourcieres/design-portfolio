@@ -435,9 +435,13 @@ hr{ background: white; }
 }
 
 #p-kurloo .decal-right-mob h3{
-/*   font-size: 2em; */
-/*   font-weight: 600; */
+  font-size: 2em;
+  font-weight: 600;
   padding-top: 7rem;
+}
+
+$p-kurloo .kurloo-solution-left{
+  padding: 2rem 3.4rem;
 }
 
 #p-cgi p{ padding-top: 2rem; }
