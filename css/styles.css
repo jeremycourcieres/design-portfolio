@@ -424,6 +424,24 @@ hr{ background: white; }
   width: 100%;
 }
 
+#p-kurloo .kurloo-proto h3{
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 7rem;
+}
+
+#p-kurloo .decal-right-mob h3{
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 7rem;
+}
+
+#p-cgi p{ padding-top: 2rem; }
+
+#p-cgi .decal-right p{ padding-bottom: 50rem; }
+
+
+
 #p-madison{
   color: white;
   background: #252626;
