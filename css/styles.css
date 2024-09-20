@@ -461,6 +461,13 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-ui-left{ padding: 2rem 0 2rem 3.4rem; }
 
+#p-kurloo .kurloo-decal{ padding: 2rem 0 2rem 3.4rem; }
+
+#p-kurloo .kurloo-install{ padding: 2rem 0 2rem 3.4rem; }
+
+#p-kurloo .kurloo-pack{ padding: 2rem 0 2rem 3.4rem; }
+
+
 #p-cgi p{ padding-top: 2rem; }
 
 #p-cgi .decal-right p{ padding-bottom: 50rem; }
