@@ -376,6 +376,10 @@ hr{ background: white; }
 #p-kurloo .kurloo-left img{
   max-width: 1000px;
   width: 100%;
+  display: block;
+  float: left; 
+  margin-left: 0;
+  margin-right: auto;
 }
 
 #p-kurloo .kurloo-middle img{
