@@ -367,14 +367,12 @@ hr{ background: white; }
   font-weight: 300;
 }
 
-#p-kurloo .kurloo-left{ padding: 2rem 1rem 2rem 3.4rem; }
-
 #p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
 
-/* #p-kurloo .kurloo-left img{
+#p-kurloo .kurloo-left img{
   max-width: 1000px;
   width: 100%;
-} */
+}
 
 #p-kurloo .kurloo-middle img{
   max-width: 670px;
@@ -442,6 +440,10 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-solution-left{
   padding: 5rem 3.4rem;
+}
+
+#p-kurloo .kurloo-solution-left{
+  padding-left: 
 }
 
 #p-cgi p{ padding-top: 2rem; }
