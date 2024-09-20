@@ -497,6 +497,13 @@ hr{ background: white; }
   font-weight: 300;
 }
 
+#p-madison .madison img{
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+}
+
 #p-madison .madison-left{ padding: 2rem 3.4rem; }
 
 #p-madison .madison-left-nav{ padding-top: 2rem; }
