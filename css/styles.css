@@ -372,6 +372,11 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
 
+#p-kurloo .kurloo-middle img{
+  max-width: 670px;
+  width: 100%;
+}
+
 #p-kurloo .nav-style{ color: white; }
 #p-kurloo .nav-style:hover{
   color: #FF0000;
