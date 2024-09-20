@@ -371,10 +371,10 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
 
-#p-kurloo .kurloo-left img{
+/* #p-kurloo .kurloo-left img{
   max-width: 1000px;
   width: 100%;
-}
+} */
 
 #p-kurloo .kurloo-middle img{
   max-width: 670px;
