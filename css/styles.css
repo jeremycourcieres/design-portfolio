@@ -372,6 +372,11 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
 
+#p-kurloo .kurloo-left img{
+  max-width: 670px;
+  width: 100%;
+}
+
 #p-kurloo .kurloo-middle img{
   max-width: 670px;
   width: 100%;
@@ -427,7 +432,7 @@ hr{ background: white; }
 #p-kurloo .kurloo-proto h3{
   font-size: 2em;
   font-weight: 600;
-  padding-top: 7rem;
+  padding: 2rem 3.4rem;
 }
 
 #p-kurloo .decal-right-mob h3{
