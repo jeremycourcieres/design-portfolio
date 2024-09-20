@@ -446,7 +446,7 @@ hr{ background: white; }
   padding-top: 7rem;
 }
 
-#p-kurloo .kurloo-solution-left .kurloo-features-left{
+#p-kurloo .kurloo-solution-left, .kurloo-features-left, .kurloo-dev-left, .kurloo-dev2-left, .kurloo-dev3-left{
   padding: 5rem 3.4rem;
 }
 
