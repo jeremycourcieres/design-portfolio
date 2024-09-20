@@ -377,6 +377,9 @@ hr{ background: white; }
   width: 100%;
 }
 
+#p-kurloo .kurloo-middle p{
+}
+
 #p-kurloo .nav-style{ color: white; }
 #p-kurloo .nav-style:hover{
   color: #FF0000;
