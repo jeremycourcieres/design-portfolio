@@ -369,6 +369,10 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
 
+#p-kurloo .kurloo-left h1{
+  padding-left: 3.4rem;
+}
+
 #p-kurloo .kurloo-left img{
   max-width: 1000px;
   width: 100%;
