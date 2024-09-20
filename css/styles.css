@@ -446,9 +446,15 @@ hr{ background: white; }
   padding-top: 7rem;
 }
 
-#p-kurloo .kurloo-solution-left, .kurloo-features-left, .kurloo-dev-left, .kurloo-dev2-left, .kurloo-dev3-left{
-  padding: 5rem 3.4rem;
-}
+#p-kurloo .kurloo-solution-left{ padding: 5rem 3.4rem; }
+
+#p-kurloo .kurloo-features-left{ padding: 5rem 3.4rem; }
+
+#p-kurloo .kurloo-dev-left{ padding: 5rem 3.4rem; }
+
+#p-kurloo .kurloo-dev2-left{ padding: 5rem 3.4rem; }
+
+#p-kurloo .kurloo-dev3-left{ padding: 5rem 3.4rem; }
 
 #p-cgi p{ padding-top: 2rem; }
 
