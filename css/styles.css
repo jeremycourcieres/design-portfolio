@@ -372,6 +372,45 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
 
+#p-kurloo .nav-style{ color: white; }
+#p-kurloo .nav-style:hover{
+  color: #FF0000;
+  text-decoration: none;
+}
+
+#p-kurloo .projects-nav-title{
+  margin-bottom: 0;
+  padding-right: 3.4rem;
+}
+
+#p-kurloo .projects-nav-title li{
+  list-style: none;
+  font-size: 1.25em;
+  font-weight: 200;
+  writing-mode: vertical-rl;
+  float: right;
+  transform: rotate(180deg);
+  padding-bottom: 10.1rem;
+}
+
+#p-kurloo .projects-nav-list li{
+  list-style: none;
+  display: inline;
+  font-size: 0.625em;
+  font-weight: 200;
+  padding: 0.625rem 0;
+}
+
+#p-kurloo .projects-nav-list{
+  writing-mode: vertical-rl;
+  float: right;
+  transform: rotate(180deg);
+  margin-right: 3.125rem;
+}
+
+#p-kurloo #nav2{ padding-bottom: 4.25rem;}
+
+
 #p-kurloo .kurloo-right img{
   max-width: 670px;
   width: 100%;
