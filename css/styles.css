@@ -573,6 +573,54 @@ hr{ background: white; }
 #k-view-js-2D { display: block; }
 #k-view-js-3D { display: none; }
 
+#p-kurloo .btn{
+  display: flex;
+  align-items: baseline;
+  padding: 0.5rem;
+  margin: 0;
+  width: 180px;
+}
+
+#p-kurloo .btn:hover{
+  border-radius: 16px;
+  background: #252626;
+  box-shadow:  8px 8px 17px #1f2020,
+              -8px -8px 17px #2b2c2c;
+}
+
+#p-kurloo .round {
+  position: relative;
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  left: 10px;
+  top: 0;
+}
+
+#p-kurloo .round:hover{ background: #BB0000; }
+
+#p-kurloo .text {
+  position: absolute;
+  width: 170px;
+  height: 10px;
+  padding-left: 1.5rem;
+}
+
+#p-kurloo .clickme{
+  position: relative;
+  bottom: 0;
+  height: 10px;
+  top: 7px;
+  color: white;
+}
+
+#p-kurloo .clickme:hover{ color: #BB0000; }
+
+.horizontal {
+  animation: horizontal_7003 5.72s ease infinite;
+  transform-origin: 50% 50%;
+}
 
 /*******************************/
 /******* MADISON SECTION *******/
