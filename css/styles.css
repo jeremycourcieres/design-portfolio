@@ -511,6 +511,13 @@ hr{ background: white; }
   bottom: 1rem;
 }
 
+
+#p-kurloo .k-expand{
+  height: 0px;
+  margin-top: -70px;
+  overflow: hidden;
+}
+
 #p-kurloo .b { display: block; }
 #p-kurloo .toggle {
   position: absolute;
