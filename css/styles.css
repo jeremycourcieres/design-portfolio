@@ -493,9 +493,12 @@ hr{ background: white; }
 }
 
 #p-kurloo .kurloo-pack{ padding: 2rem 0 2rem 3.4rem; }
+#p-kurloo .kurloo-pack1-left{ padding: 0 0 2rem 3.4rem; }
 
-
-
+#p-kurloo .kurloo-pack2-flat img{
+  position: absolute;
+  bottom: 1rem;
+}
 
 #p-madison{
   color: white;
