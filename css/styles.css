@@ -461,11 +461,11 @@ hr{ background: white; }
 #p-kurloo .kurloo-dev3-middle{ padding: 2rem 0 2rem 0; }
 #p-kurloo .kurloo-dev3-right{ padding: 2rem 0 2rem 0; }
 
-#p-kurloo .kurloo-ui{ padding: 2rem 0 0 3.4rem; }
+#p-kurloo .kurloo-ui{ padding: 5rem 0 0 3.4rem; }
 #p-kurloo .kurloo-ui-left{ padding: 2rem 0 2rem 3.4rem; }
 #p-kurloo .kurloo-ui-right{ padding: 2rem 0 2rem 0; }
 
-#p-kurloo .kurloo-decal{ padding: 2rem 0 2rem 3.4rem; }
+#p-kurloo .kurloo-decal{ padding: 5rem 0 2rem 3.4rem; }
 
 #p-kurloo .kurloo-decal-left{ padding: 2rem 0 0 3.4rem; }
 #p-kurloo .kurloo-decal-right{ padding: 2rem 3.4rem 0 0; }
@@ -475,7 +475,7 @@ hr{ background: white; }
 #p-kurloo .kurloo-install{ padding: 2rem 0 2rem 5rem; }
 #p-kurloo .kurloo-install-text1 p{
   position: absolute;
-  top: 10rem;
+  top: 8rem;
   left: 3.4rem;
 }
 #p-kurloo .kurloo-install-text2 p{
