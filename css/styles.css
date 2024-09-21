@@ -709,9 +709,9 @@ hr{ background: white; }
 
 #p-madison .madison img{
   width: 100%;
-  vertical-align: middle;
+/*   vertical-align: middle;
   display: block;
-  margin: auto;
+  margin: auto; */
 }
 
 #p-madison .madison-left{ padding: 2rem 3.4rem; }
@@ -1506,6 +1506,10 @@ hr{ background: white; }
 }
 #p-madison .batt-sol3 img{ margin: 0 3rem; }
 
+/****************************/
+/******* TILT SECTION *******/
+/****************************/
+
 
 #p-tilt{ background: #ECB90F; }
 
@@ -1887,6 +1891,11 @@ hr{ background: white; }
   padding: 3rem;
 }
 
+
+/****************************/
+/******* AUXI SECTION *******/
+/****************************/
+
 #p-auxi{
   color: white;
   background: #051026;
@@ -2058,6 +2067,11 @@ hr{ background: white; }
 #a-view-js-2D { display: block; }
 #a-view-js-3D { display: none; }
 
+
+/***************************/
+/******* CGI SECTION *******/
+/***************************/
+
 #p-cgi{
   color: white;
   background: black;
@@ -2227,6 +2241,11 @@ hr{ background: white; }
   margin: 0;
   max-width: 100%
 }
+
+
+/****************************/
+/******* BPLM SECTION *******/
+/****************************/
 
 #p-bplm .bplm-img0 img{ width: 100%; }
 
@@ -2406,6 +2425,11 @@ hr{ background: white; }
   padding: 3rem 0 3rem 3rem;
 }
 
+
+/*****************************/
+/******* LOGOS SECTION *******/
+/*****************************/
+
 #logos{
   color: white;
   background: #ABABAB;
@@ -2534,6 +2558,11 @@ hr{ background: white; }
   padding-top: 3rem;
   padding-right: 3.1rem;
 }
+
+/******************************/
+/******* EXTRAS SECTION *******/
+/******************************/
+
 
 #extras{
   background: #CED0D4;
