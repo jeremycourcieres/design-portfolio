@@ -477,12 +477,12 @@ hr{ background: white; }
 #p-kurloo .kurloo-install img{ padding: 2rem 0 2rem 5rem; }
 #p-kurloo .kurloo-install-text1{
   position: absolute;
-  top: 22rem;
+  top: 7rem;
   left: 3.4rem;
 }
 #p-kurloo .kurloo-install-text2{
   position: absolute;
-  bottom: 17rem;
+  bottom: 7rem;
   right: 2rem;
 }
 
