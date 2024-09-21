@@ -590,7 +590,7 @@ hr{ background: white; }
 
 #p-kurloo .btn:hover{
   border-radius: 16px;
-  background: #252626;
+  background: #05052B;
   box-shadow:  8px 8px 17px #1f2020,
               -8px -8px 17px #2b2c2c;
 }
@@ -605,7 +605,7 @@ hr{ background: white; }
   top: 0;
 }
 
-#p-kurloo .round:hover{ background: #BB0000; }
+#p-kurloo .round:hover{ background: #ECB90F; }
 
 #p-kurloo .text {
   position: absolute;
@@ -622,11 +622,36 @@ hr{ background: white; }
   color: white;
 }
 
-#p-kurloo .clickme:hover{ color: #BB0000; }
+#p-kurloo .clickme:hover{ color: #ECB90F; }
 
 .horizontal {
   animation: horizontal_7003 5.72s ease infinite;
   transform-origin: 50% 50%;
+}
+
+@keyframes horizontal_7003 {
+  0% { transform:translate(0,0) }
+  2.0979% { transform:translate(5px,0) }
+  4.1958% { transform:translate(0,0) }
+  6.29371% { transform:translate(5px,0) }
+  8.39161% { transform:translate(0,0) }
+  10.48951% { transform:translate(5px,0) }
+  12.58741% { transform:translate(0,0) }
+  100% { transform:translate(0,0) }
+}
+
+#p-kurloo .changeView { padding: 3rem 3.4rem }
+#p-kurloo .changeViewText {
+  position: absolute;
+  top: 43%;
+  left: 72%;
+  width: 100%;
+}
+
+#p-kurloo .changeViewText p {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 /*******************************/
