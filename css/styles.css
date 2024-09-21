@@ -372,6 +372,22 @@ hr{ background: white; }
   font-weight: 300;
 }
 
+#p-kurloo .kurloo{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1000px; /* or any max width */
+  overflow: hidden; /* hides overflow if it's still happening */
+}
+
+#p-kurloo .kurloo img{
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
 #p-kurloo .kurloo-left-nav{ padding-top: 2rem; }
 
 #p-kurloo .kurloo-left h1{
