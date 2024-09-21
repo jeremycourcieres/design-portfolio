@@ -472,12 +472,18 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-decal2-left{ padding: 5rem 0 2rem 3.4rem; }
 
-#p-kurloo .kurloo-install{ padding: 2rem 0 2rem 3.4rem; }
-#p-kurloo .kurloo-install p{
+#p-kurloo .kurloo-install{ padding: 2rem 0 2rem 5rem; }
+#p-kurloo .kurloo-install-text1 p{
   position: absolute;
   top: 10rem;
   left: 3.4rem;
 }
+#p-kurloo .kurloo-install-text2 p{
+  position: absolute;
+  bottom: 4rem;
+  right: 3rem;
+}
+
 
 #p-kurloo .kurloo-pack{ padding: 2rem 0 2rem 3.4rem; }
 
