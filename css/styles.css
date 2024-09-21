@@ -537,19 +537,17 @@ hr{ background: white; }
   height: 800px;
   margin: 0;
   padding: 0;
-  margin-top: 7rem;
+  margin-top: 10rem;
+  /* background: #79798b; */
   background: none;
   border-radius: 300px;
+  /* border: none; */
   position: absolute;
-  left: 320px;
-  /* right: 300px; */
+  left: 20px;
+  /* right: 350px; */
 }
 
-#p-kurloo .viewer img{
-  max-width: 670px;
-  width: 100%;
-}
-
+#p-kurloo .viewer img{ width: 100%; }
 #p-kurloo .viewer{
   padding: 0;
   position: relative;
