@@ -458,11 +458,10 @@ hr{ background: white; }
 
 #p-kurloo .kurloo-dev3{ padding: 2rem 0 0 3.4rem; }
 #p-kurloo .kurloo-dev3-left{ padding: 2rem 0 2rem 3.4rem; }
-#p-kurloo .kurloo-dev3-middle{ padding: 2rem 0 2rem 3.4rem; }
-#p-kurloo .kurloo-dev3-right{ padding: 2rem 0 2rem 3.4rem; }
+#p-kurloo .kurloo-dev3-middle{ padding: 2rem 0 2rem 0; }
+#p-kurloo .kurloo-dev3-right{ padding: 2rem 0 2rem 0; }
 
-#p-kurloo .kurloo-ui{ padding: 2rem 0 2rem 3.4rem; }
-
+#p-kurloo .kurloo-ui{ padding: 2rem 0 0 3.4rem; }
 #p-kurloo .kurloo-ui-left{ padding: 2rem 0 2rem 3.4rem; }
 #p-kurloo .kurloo-ui-right{ padding: 2rem 0 2rem 0; }
 
