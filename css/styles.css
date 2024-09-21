@@ -504,7 +504,10 @@ hr{ background: white; }
 #p-kurloo .kurloo-install2-img{ position: relative; }
 #p-kurloo .kurloo-install2-img1 img{
   position: absolute;
+  top: 0;
   right: 0;
+  width: 100%;
+  max-width: 400px;
 }
 #p-kurloo .kurloo-install2-img1 p{
   position: absolute;
