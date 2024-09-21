@@ -150,11 +150,18 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-sm-12">
-              <div class="kurloo-left">
+              <div class="kurloo-left" id="k-view-js-2D">
 		<h1>KURLOO</h1>
                 <img src="imgs/img101-kurloo.png" alt="Kurloo - Positioning Sensor" style="width:450px;">
               </div>
-            </div>
+	      <div class="viewer col-md-6 col-sm-12" id="k-view-js-3D">
+                <model-viewer src="models/Kurloo-Sensor2.glb"
+                  auto-rotate camera-controls
+                  camera-orbit="-20deg 75deg 5.5m"
+                  alt="Kurloo Positioning Sensor">
+                </model-viewer>
+              </div>
+	    </div>
 	    <div class="col-md-4 col-sm-12">
 	      <div class="kurloo-middle">
 		<p style="padding-top: 14rem;">
