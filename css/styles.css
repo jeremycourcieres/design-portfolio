@@ -709,9 +709,9 @@ hr{ background: white; }
 
 #p-madison .madison img{
   width: 100%;
-/*   vertical-align: middle;
+  vertical-align: middle;
   display: block;
-  margin: auto; */
+  margin: auto;
 }
 
 #p-madison .madison-left{ padding: 2rem 3.4rem; }
