@@ -1949,6 +1949,8 @@ hr{ background: white; }
 }
 
 #p-locata .locata-left{ padding: 2rem 3.4rem; }
+#p-locata .locata-left p{ padding: 2rem 0; }
+
 #p-locata .locata-right-nav{ padding-top: 2rem; }
 #p-locata .nav-style{ color: black; }
 #p-locata .nav-style:hover{
@@ -1959,7 +1961,6 @@ hr{ background: white; }
 #p-locata .projects-nav-title{
   margin-bottom: 0;
   padding-right: 3.4rem;
-  color: black;
 }
 
 #p-locata .projects-nav-title li{
@@ -1987,6 +1988,31 @@ hr{ background: white; }
   margin-right: 3.125rem;
 }
 
+#p-locata .locata-meas{ padding: 3rem 0 2rem 3.4rem; }
+
+#p-locata .locata-label{ 
+	padding: 3rem 0 2rem 3.4rem; 
+	position: relative;
+}
+#p-locata .locata-label-text{
+	position: absolute;
+	bottom: 4rem;
+	right: 4rem;
+}
+
+#p-locata .locata-screw{ padding: 3rem 0 2rem 3.4rem; }
+#p-locata .locata-screw-left{ padding: 3rem 0 2rem 3.4rem; }
+#p-locata .locata-screw-middle{ padding: 3rem 0 2rem 2rem; }
+#p-locata .locata-screw-right{ padding: 3rem 0 2rem 0; }
+
+#p-locata .locata-ip{ padding: 3rem 0 2rem 3.4rem; }
+
+#p-locata .locata-install-left{ padding: 3rem 0 2rem 3.4rem; }
+#p-locata .locata-install1-left{ padding: 3rem 0 2rem 3.4rem; }
+#p-locata .locata-install2-left{ padding: 3rem 0 2rem 3.4rem; }
+#p-locata .locata-install-right{ padding: 7rem 0 2rem 3.4rem; }
+#p-locata .locata-install1-right{ padding: 7rem 0 2rem 3.4rem; }
+#p-locata .locata-install2-right{ padding: 7rem 0 2rem 3.4rem; }
 
 /***************************/
 /******* CGI SECTION *******/
