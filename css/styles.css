@@ -477,23 +477,23 @@ hr{ background: white; }
 #p-kurloo .kurloo-install img{ padding: 2rem 0 2rem 5rem; }
 #p-kurloo .kurloo-install-text1{
   position: absolute;
-  top: 7rem;
+  top: 9rem;
   left: 3.4rem;
 }
 #p-kurloo .kurloo-install-text2{
   position: absolute;
-  bottom: 7rem;
-  right: 2rem;
+  bottom: 6rem;
+  right: 3rem;
 }
 
-#p-kurloo .kurloo-instal2{ padding: 2rem 0 2rem 0; position:relative; }
+#p-kurloo .kurloo-install2{ padding: 2rem 0 2rem 0; position:relative; }
 #p-kurloo .kurloo-install2-img1{
   position: absolute;
   right: 0;
 }
-#p-kurloo .kurloo-install2-text p{
+#p-kurloo .kurloo-install2-text{
   position: absolute;
-  bottom: 0rem;
+  bottom: 0;
 }
 
 #p-kurloo .kurloo-pack{ padding: 2rem 0 2rem 3.4rem; }
