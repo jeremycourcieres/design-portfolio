@@ -1330,6 +1330,12 @@
 
     <!-- Function for expanded sections -->
     <script type="text/javascript">
+    function readMoreKurloo() {
+      var expandInfo = document.getElementById("k-expand-js");
+      expandInfo.style.height = "9990px";
+    }
+    </script>
+    <script type="text/javascript">
     function readMoreMadi() {
       var expandInfo = document.getElementById("m-expand-js");
       expandInfo.style.height = "9990px";
@@ -1355,6 +1361,24 @@
     </script> -->
 
     <!-- Function for 2D to 3D swap button -->
+    <script type="text/javascript">
+    function modelViewKurloo() {
+      var check = document.getElementById("modelViewK");
+      var threeD = document.getElementById("k-view-js-3D");
+      var twoD = document.getElementById("k-view-js-2D");
+      var viewText = document.getElementById("2D3DTextKurloo");
+
+      if (check.checked) {
+          threeD.style.display = "block";
+          twoD.style.display = "none";
+          viewText.innerHTML = "Change to 2D view";
+      } else {
+          threeD.style.display = "none";
+          twoD.style.display = "block";
+          viewText.innerHTML = "Change to 3D view";
+      }
+    }
+    </script>	
     <script type="text/javascript">
     function modelViewMadi() {
       var check = document.getElementById("modelViewM");
