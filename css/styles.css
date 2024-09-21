@@ -709,6 +709,7 @@ hr{ background: white; }
 
 #p-madison .madison img{
   width: 100%;
+  max-width: 100%;
   vertical-align: middle;
   display: block;
   margin: auto;
