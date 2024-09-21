@@ -478,7 +478,7 @@ hr{ background: white; }
 #p-kurloo .kurloo-decal2-left{ padding: 5rem 0 2rem 3.4rem; }
 #p-kurloo .kurloo-decal2-right{ padding: 5rem 0 2rem 0; }
 
-#p-kurloo .kurloo-install{ padding: 10rem 0 2rem 3.4rem; position: relative; }
+#p-kurloo .kurloo-install{ padding: 10rem 0 1rem 3.4rem; position: relative; }
 #p-kurloo .kurloo-install img{ padding: 2rem 0 2rem 5.5rem; }
 #p-kurloo .kurloo-install-text1{
   position: absolute;
@@ -487,7 +487,7 @@ hr{ background: white; }
 }
 #p-kurloo .kurloo-install-text2{
   position: absolute;
-  bottom: 15rem;
+  bottom: 21rem;
   right: 5rem;
 }
 
