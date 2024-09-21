@@ -419,7 +419,7 @@ hr{ background: white; }
 
 #p-kurloo .projects-nav-title{
   margin-bottom: 0;
-  padding-right: 7.4rem;
+  padding-right: 3.4rem;
 }
 
 #p-kurloo .projects-nav-title li{
@@ -429,7 +429,7 @@ hr{ background: white; }
   writing-mode: vertical-rl;
   float: right;
   transform: rotate(180deg);
-  padding-bottom: 10.1rem;
+  padding-bottom: 12.1rem;
 }
 
 #p-kurloo .projects-nav-list li{
