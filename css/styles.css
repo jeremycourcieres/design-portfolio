@@ -497,12 +497,15 @@ hr{ background: white; }
   left: 3.4rem;
 }
 
-#p-kurloo .kurloo-install2{ padding: 2rem 0 10rem 0; position:relative; }
+#p-kurloo .kurloo-install2{ 
+  padding: 2rem 0 10rem 0; 
+  position: relative; 
+}
+#p-kurloo .kurloo-install2-img{ position: relative; }
 #p-kurloo .kurloo-install2-img1 img{
   position: absolute;
   right: 0;
 }
-
 #p-kurloo .kurloo-install2-img1 p{
   position: absolute;
   bottom: 3rem;
