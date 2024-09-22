@@ -521,7 +521,7 @@ hr{ background: white; }
 /*   position: absolute;
   top: 0;
   right: 0; */
-  float: right;
+  padding-left:3.4rem.
   width: 100%;
   max-width: 400px;
 }
