@@ -517,16 +517,16 @@ hr{ background: white; }
   padding: 2rem 0 10rem 0; 
   position: relative; 
 }
-#p-kurloo .kurloo-install2-img1 img{
+#p-kurloo .kurloo-install2-img1{
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
   max-width: 400px;
 }
-#p-kurloo .kurloo-install2-img1 p{
+#p-kurloo .kurloo-install2-text{
   position: absolute;
-  bottom: 3rem;
+  bottom: 5rem;
 }
 
 #p-kurloo .kurloo-pack{ padding: 0 0 2rem 3.4rem; }
@@ -658,8 +658,8 @@ hr{ background: white; }
 #p-kurloo .changeView { padding: 3rem 0.5rem 0 0; }
 #p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
-  top: 7%;
-  right: 15%;
+  top: 5%;
+  right: 5%;
   width: 100%;
 }
 
