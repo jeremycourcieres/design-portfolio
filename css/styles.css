@@ -655,11 +655,11 @@ hr{ background: white; }
   100% { transform:translate(0,0) }
 }
 
-#p-kurloo .changeView { padding: 3rem 0.5rem 0 0.5rem; height:300px; }
+#p-kurloo .changeView { padding: 3rem 0.5rem 0 0.5rem; height:200px; }
 #p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
-  top: 41%;
-  left: 20%;
+  top: 35%;
+  left: 25%;
   width: 100%;
 }
 
