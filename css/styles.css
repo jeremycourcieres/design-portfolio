@@ -1970,7 +1970,7 @@ hr{ background: white; }
 #p-locata .locata-right-nav{ padding-top: 2rem; }
 #p-locata .nav-style{ color: black; }
 #p-locata .nav-style:hover{
-  color: #05052B;
+  color: #37338b;
   text-decoration: none;
 }
 
@@ -2021,8 +2021,8 @@ hr{ background: white; }
 #p-locata .locata-screw{ padding: 3rem 0 2rem 3.4rem; }
 #p-locata .locata-screw-left{ padding: 3rem 0 2rem 3.4rem; }
 
-#p-locata .locata-screw-middle{ padding: 3rem 0 2rem 2rem; }
-#p-locata .locata-screw-text1{ padding-top: 3rem; }
+#p-locata .locata-screw-middle{ padding: 6rem 0 2rem 2rem; }
+#p-locata .locata-screw-text1{ padding-top: 1rem; }
 
 #p-locata .locata-screw-right{ padding: 3rem 0 2rem 0; }
 
