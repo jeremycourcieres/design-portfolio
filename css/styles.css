@@ -413,7 +413,7 @@ hr{ background: white; }
 
 #p-kurloo .nav-style{ color: white; }
 #p-kurloo .nav-style:hover{
-  color: #00FFFF;
+  color: #00CED1;
   text-decoration: none;
 }
 
@@ -659,8 +659,8 @@ hr{ background: white; }
 #p-kurloo .changeView { padding: 3rem 0.5rem 0 0; }
 #p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
-  top: 39%;
-  right: 79%;
+  top: 7%;
+  right: 15%;
   width: 100%;
 }
 
@@ -1973,7 +1973,7 @@ hr{ background: white; }
 #p-locata .locata-right-nav{ padding-top: 2rem; }
 #p-locata .nav-style{ color: black; }
 #p-locata .nav-style:hover{
-  color: #37338b;
+  color: #00CED1;
   text-decoration: none;
 }
 
