@@ -624,16 +624,16 @@ hr{ background: white; }
 
 #p-kurloo .text {
   position: absolute;
-  width: 170px;
+  width: 150px;
   height: 10px;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 
 #p-kurloo .clickme{
   position: relative;
   bottom: 0;
   height: 10px;
-  top: 7px;
+  top: 0px;
   color: white;
 }
 
@@ -658,7 +658,7 @@ hr{ background: white; }
 #p-kurloo .changeView { padding: 3rem 0.5rem 0 0.5rem; height:200px; }
 #p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 28%;
   width: 100%;
 }
