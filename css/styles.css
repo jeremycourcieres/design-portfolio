@@ -517,7 +517,7 @@ hr{ background: white; }
   padding: 2rem 0 10rem 0; 
   position: relative; 
 }
-#p-kurloo .kurloo-install2-img1{
+#p-kurloo .kurloo-install2-img1 img{
   position: absolute;
   top: 0;
   right: 0;
@@ -526,7 +526,7 @@ hr{ background: white; }
 }
 #p-kurloo .kurloo-install2-text{
   position: absolute;
-  bottom: 5rem;
+  bottom: 20rem;
 }
 
 #p-kurloo .kurloo-pack{ padding: 0 0 2rem 3.4rem; }
