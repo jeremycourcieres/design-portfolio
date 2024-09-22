@@ -524,9 +524,10 @@ hr{ background: white; }
   width: 100%;
   max-width: 400px;
 }
-#p-kurloo .kurloo-install2-text p{
+#p-kurloo .kurloo-install2-text{
   position: absolute;
-  top: 20rem;
+  bottom: 1rem;
+  max-height: 500px;
 }
 
 #p-kurloo .kurloo-pack{ padding: 0 0 2rem 3.4rem; }
@@ -658,8 +659,8 @@ hr{ background: white; }
 #p-kurloo .changeView { padding: 3rem 0.5rem 0 0; }
 #p-kurloo .changeViewText p{                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
-  top: 5rem;
-  right: 10rem;
+  top: 0.5rem;
+  right: 4rem;
   width: 100%;
   color: white;
   font-size: 1em;
