@@ -550,7 +550,7 @@ hr{ background: white; }
 #p-kurloo .b { display: block; }
 #p-kurloo .toggle {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 90%;
   width: 60px;
   height: 40px;
@@ -562,7 +562,7 @@ hr{ background: white; }
 }
 
 #p-kurloo model-viewer{
-  width: 500px;
+  width: 550px;
   height: 500px;
   margin: 0;
   padding: 0;
@@ -634,7 +634,7 @@ hr{ background: white; }
   position: relative;
   bottom: 0;
   height: 10px;
-  top: 0px;
+  top: 7px;
   color: white;
 }
 
@@ -655,11 +655,11 @@ hr{ background: white; }
   12.58741% { transform:translate(0,0) }
   100% { transform:translate(0,0) }
 }
-
-#p-kurloo .changeView { padding: 3rem 0.5rem 0 0; height:200px; }
+#p-kurloo .buttonKurloo { padding: 0 0.5rem 1rem 0; }
+#p-kurloo .changeView { padding: 3rem 0.5rem 0 0; }
 #p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
-  top: 15%;
+  top: 50%;
   left: 28%;
   width: 100%;
 }
