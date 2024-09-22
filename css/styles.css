@@ -562,7 +562,7 @@ hr{ background: white; }
 }
 
 #p-kurloo model-viewer{
-  width: 550px;
+  width: 500px;
   height: 500px;
   margin: 0;
   padding: 0;
@@ -655,7 +655,7 @@ hr{ background: white; }
   12.58741% { transform:translate(0,0) }
   100% { transform:translate(0,0) }
 }
-#p-kurloo .buttonKurloo { padding: 3rem 3.4rem; }
+#p-kurloo .buttonKurloo { padding: 3rem 3.4rem; height:80px; }
 #p-kurloo .changeView { padding: 3rem 0.5rem 0 0; }
 #p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
