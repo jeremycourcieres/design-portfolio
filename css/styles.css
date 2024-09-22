@@ -692,7 +692,7 @@ hr{ background: white; }
 #p-kurloo .changeViewText {
   position: absolute;
   top: 43%;
-  left: 72%;
+  left: 32%;
   width: 100%;
 }
 
@@ -2023,6 +2023,7 @@ hr{ background: white; }
 
 #p-locata .locata-screw-middle{ padding: 6rem 0 2rem 2rem; }
 #p-locata .locata-screw-text1{ padding-top: 1rem; }
+#p-locata .locata-screw-text2{ padding-top: 2rem; }
 
 #p-locata .locata-screw-right{ padding: 3rem 0 2rem 0; }
 
@@ -2032,9 +2033,9 @@ hr{ background: white; }
 #p-locata .locata-install-left{ padding: 3rem 0 2rem 3.4rem; }
 #p-locata .locata-install1-left{ padding: 3rem 0 2rem 3.4rem; }
 #p-locata .locata-install2-left{ padding: 3rem 0 2rem 3.4rem; }
-#p-locata .locata-install-right{ padding: 10rem 0 2rem 3.4rem; }
-#p-locata .locata-install1-right{ padding: 10rem 0 2rem 3.4rem; }
-#p-locata .locata-install2-right{ padding: 10rem 0 2rem 3.4rem; }
+#p-locata .locata-install-right{ padding: 11rem 0 0 3.4rem; }
+#p-locata .locata-install1-right{ padding: 11rem 0 0 3.4rem; }
+#p-locata .locata-install2-right{ padding: 11rem 0 0 3.4rem; }
 
 /***************************/
 /******* CGI SECTION *******/
