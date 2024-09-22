@@ -610,6 +610,7 @@ hr{ background: white; }
               -8px -8px 17px #2b2c2c;
 }
 
+#p-kurloo .learnKurloo{ padding:0;}
 #p-kurloo .round {
   position: relative;
   border: 2px solid #fff;
@@ -624,9 +625,9 @@ hr{ background: white; }
 
 #p-kurloo .text {
   position: absolute;
-  width: 150px;
+  width: 170px;
   height: 10px;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 #p-kurloo .clickme{
@@ -655,7 +656,7 @@ hr{ background: white; }
   100% { transform:translate(0,0) }
 }
 
-#p-kurloo .changeView { padding: 3rem 0.5rem 0 0.5rem; height:200px; }
+#p-kurloo .changeView { padding: 3rem 0.5rem 0 0; height:200px; }
 #p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
   top: 15%;
