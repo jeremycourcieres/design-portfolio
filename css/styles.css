@@ -413,7 +413,7 @@ hr{ background: white; }
 
 #p-kurloo .nav-style{ color: white; }
 #p-kurloo .nav-style:hover{
-  color: #ECB90F;
+  color: #00FFFF;
   text-decoration: none;
 }
 
@@ -655,11 +655,11 @@ hr{ background: white; }
   100% { transform:translate(0,0) }
 }
 
-#p-kurloo .changeView { padding: 3rem 0.5rem 0 0.5rem }
-#p-kurloo .changeViewText {  /*************** These css is for the change to 3d view button and text */
+#p-kurloo .changeView { padding: 3rem 0.5rem 0 0.5rem; height:300px; }
+#p-kurloo .changeViewText {                                                   /* These css is for the change to 3d view button and text */
   position: absolute;
-  top: 48%;
-  left: 12%;
+  top: 41%;
+  left: 20%;
   width: 100%;
 }
 
